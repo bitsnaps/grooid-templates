@@ -52,7 +52,6 @@ repositories {
 dependencies {
 
     // Android tools
-//    compile 'com.android.support:support-v4:${androidSupportV4}'
     compile 'com.android.support:appcompat-v7:${androidSupportV7}'
 
     // Groovy version
@@ -64,7 +63,7 @@ dependencies {
 
     // Getting rid of boiler plate code
     compile 'com.arasthel:swissknife:1.4.0'
-    
+
     // Rest handling
     // compile 'com.squareup.retrofit:retrofit:1.9.0'
     // Imaging

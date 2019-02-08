@@ -22,13 +22,13 @@ apply plugin: 'org.asciidoctor.convert'
 apply plugin: 'org.ajoberstar.github-pages'
 
 lazybones {
-    repositoryName = "bitsnaps/grooid-templates"
-    repositoryUsername = project.properties.bintrayUser
-    repositoryApiKey = project.properties.bintrayKey
+    repositoryName = "marioggar/grooid-templates"
+    repositoryUsername = bintrayUser
+    repositoryApiKey = bintrayKey
     publish=true
 
     licenses = ["Apache-2.0"]
-    vcsUrl="https://github.com/bitsnaps/grooid-templates"
+    vcsUrl="https://github.com/marioggar/grooid-templates"
 }
 
 asciidoctor {
@@ -44,7 +44,7 @@ asciidoctor {
 }
 
 githubPages {
-    repoUri = 'https://github.com/bitsnaps/grooid-templates.git'
+    repoUri = 'https://github.com/marioggar/grooid-templates.git'
     deleteExistingFiles = true
 
     pages {
